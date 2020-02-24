@@ -1,0 +1,36 @@
+# Linux commands
+
+- `ls` - provides the list of files - directories are shown in a blue colour, files are shown in white - shows files only in the current directory
+- `ls -R` - shows all files and folders in the directories and sub directories
+- `ls -al` - more information on files
+  - first column - file types and access permissions
+  - second column - memory blocks
+  - third - owner of file
+  - fourth - user group
+  - fifth - size in bytes
+  - sixth - date and time
+  - seventh - file/directory name
+- `ls -a` - shows hidden files - same as `ll`
+- `cat` command used to display, copy, combine or create text files
+- `cat > file1` - create a new file -> prompts you to add content
+- use Ctrl + d to return to command line
+- `cat file1` - to view the file
+- `cat file1 file2 > newfile` - combines file1 and file2
+- only text files can be used and displayed using the `cat` command
+- `rm <filename>` - removes file with the given 'filename'
+- `mv <filename> <newfilelocation>` - moving a file with a given 'filename' to a given 'file location' - move command needs super user permissions
+- `sudo` - allows normal user to run programs with the security privileges of the super user
+- `sudo mv <filename> <newfilelocation>` - allows any user to move a file
+- password entered for sudo - kept for 15 minutes per terminal
+- `mv <filename> <newfilename>` - change name of 'filename' to 'newfilename'
+- `mkdir <directoryname>` - creates a directory in home directory
+- `mkdir /tmp/files` - creates a new directory under 'files' under directory 'tmp'
+- `mkdir dir1 dir2 dir3` - creates multiple directories
+- `rmdir <directoryname>` - remove a directory
+- ` mv <dirname> <newdirname>` - renaming a directory
+- The `man` command is the manual for linux
+- `man <command>` - get information on the command you wish to use
+- `history` - gives a list of the commands run previously
+- `clear` - cleans the terminal
+- Ctrl + c to copy, Ctrl + Shift + v to paste
+
